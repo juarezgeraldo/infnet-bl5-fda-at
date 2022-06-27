@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.informacoes.InformacoesFragment">
+
+    <ImageView
+        android:id="@+id/imgPessoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/imgPesso_Descricao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth="200dp"
+        tools:src="@drawable/foto" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/imgPessoa"
+        tools:layout_editor_absoluteX="16dp">
+
+        <TableRow
+            android:layout_width="349dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_Nome"
+                android:layout_width="356dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_nome"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollIndicators="right">
+
+            <TextView
+                android:id="@+id/textView_Endereco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_Endereco"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_Cidade"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_cidade"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_Estado"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_estado"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_Telefone"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_telefone"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_Email"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_email"
+                android:textSize="20sp" />
+
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

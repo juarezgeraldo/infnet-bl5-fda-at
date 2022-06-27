@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_Nome"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_nome" />
+
+            <EditText
+                android:id="@+id/txtNome"
+                android:layout_width="284dp"
+                android:layout_height="wrap_content"
+                android:height="48dp"
+                android:autofillHints="IMPORTANT_FOR_AUTOFILL_NO"
+                android:ems="10"
+                android:hint="@string/txtNomeHint"
+                android:inputType="textPersonName"
+                android:textColorHint="#757575"
+                android:textSize="16sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_Nascimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_nascimento" />
+
+            <EditText
+                android:id="@+id/txtNascimento"
+                android:layout_width="284dp"
+                android:layout_height="wrap_content"
+                android:height="48dp"
+                android:autofillHints="IMPORTANT_FOR_AUTOFILL_NO"
+                android:ems="10"
+                android:hint="@string/txtNascimentoHint"
+                android:inputType="date"
+                android:textColorHint="#757575"
+                android:textSize="16sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_Idade"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_idade" />
+
+            <TextView
+                android:id="@+id/txtIdade"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:text="Idade"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_Endereco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_Endereco" />
+
+            <EditText
+                android:id="@+id/txtEndereco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="96dp"
+                android:autofillHints="IMPORTANT_FOR_AUTOFILL_NO"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/txtEnderecoHint"
+                android:importantForAutofill="no"
+                android:inputType="textMultiLine"
+                android:textColorHint="#757575"
+                android:textSize="16sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_Cidade"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_cidade" />
+
+            <EditText
+                android:id="@+id/txtCidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="48dp"
+                android:autofillHints="IMPORTANT_FOR_AUTOFILL_NO"
+                android:ems="10"
+                android:hint="@string/txtCidadeHint"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:textColorHint="#757575"
+                android:textSize="16sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_Estado"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_estado" />
+
+            <EditText
+                android:id="@+id/txtEstado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="48dp"
+                android:autofillHints="IMPORTANT_FOR_AUTOFILL_NO"
+                android:ems="10"
+                android:hint="@string/txtEstadoHint"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:textColorHint="#757575"
+                android:textSize="16sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_Telefone"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_telefone" />
+
+            <EditText
+                android:id="@+id/txtTelefone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="48dp"
+                android:autofillHints="IMPORTANT_FOR_AUTOFILL_NO"
+                android:ems="10"
+                android:hint="@string/txtTelefoneHint"
+                android:importantForAutofill="no"
+                android:inputType="phone"
+                android:textColorHint="#757575"
+                android:textSize="16sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_Email"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_email" />
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="48dp"
+                android:autofillHints="IMPORTANT_FOR_AUTOFILL_NO"
+                android:ems="10"
+                android:hint="@string/txtEmailHint"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#757575"
+                android:textSize="16sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/btCadastrarHint"
+        android:text="@string/button_cadastrar"
+        android:textSize="16sp" />
+</LinearLayout>

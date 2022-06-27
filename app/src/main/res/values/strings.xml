@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AT INFNET</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Juarez Junior</string>
+    <string name="nav_header_subtitle">juarez.junior@al.infnet.edu.br</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!--Itens do menu-->
+    <string name="menu_cadastrar">Cadastrar pessoa</string>
+    <string name="menu_informacoes">Informações pessoais</string>
+    <string name="menu_formacao">Formação e cursos</string>
+    <string name="menu_experiencia">Experiência profissional</string>
+    <!--Tela Cadastrar pessoas-->
+    <string name="button_cadastrar">Cadastrar</string>
+    <string name="textView_nome">Nome</string>
+    <string name="textView_Endereco">Endereço</string>
+    <string name="textView_cidade">Cidade</string>
+    <string name="textView_estado">Estado</string>
+    <string name="textView_telefone">Telefone</string>
+    <string name="textView_email">E-mail</string>
+    <string name="txtNomeHint">Informe seu nome</string>
+    <string name="txtEnderecoHint">Informe seu endereço</string>
+    <string name="txtCidadeHint">Informe sua cidade</string>
+    <string name="txtEstadoHint">Informe seu estado</string>
+    <string name="txtTelefoneHint">Informe seu telefone</string>
+    <string name="txtEmailHint">Informe seu e-mail</string>
+    <string name="btCadastrarHint">Pressione o botão para cadastrar</string>
+    <string name="imgPesso_Descricao">Fotografia do profissional</string>
+    <string name="textView_Formacao">Formação escolar</string>
+    <string name="textView_Cursos">Cursos extra-curriculares</string>
+    <string name="txtNascimentoHint">Informe sua data de nascimento</string>
+    <string name="textView_nascimento">Data nascimento</string>
+    <string name="textView_idade">Idade</string>
+</resources>
